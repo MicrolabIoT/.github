@@ -4,16 +4,16 @@ Welcome to the official code repository of **Atelier Eindhoven B.V.** This organ
 
 ---
 
-## 🌐 Website & Dashboard Interfaces
+## 🌐 Web-based applications & Dashboard Interfaces
 
 These repositories power the user-facing web interfaces, including dashboards and configuration panels.
-- [`Admin-panel`](https://github.com/MicrolabIoT/Tablet_lightshow) – Simple Python script to flicker the lights (used in public tablet dashboards).
-- [`Meeting room application`](https://github.com/MicrolabIoT/Tablet_lightshow)
+- [`Admin-panel`](https://github.com/MicrolabIoT/TabletAdminSPA) – Admin panel for tablet control, smart-building control (IoT side) - works with 
+- [`Meeting room application`](https://github.com/MicrolabIoT/TabletSPA) - Meeting room tablet application for controlling lights, music, TV etc.
+- [`factory-frontend`](https://github.com/MicrolabIoT/factory-provisiong-tool) – Fullstack application for factory flashing devices.
+- [´Device-mapper'](https://github.com/MicrolabIoT/zigbee-helper-tool) - frontend for flashing esp devices with right settings and configuring zigbee devices.
 - 
-- [`tablet_lightshow`](https://github.com/MicrolabIoT/Tablet_lightshow) – Simple Python script to flicker the lights (used in public tablet dashboards).
 - [`dashboard_sensors`](https://github.com/MicrolabIoT/Dashboard_sensors) – Dash dashboard for all sensor data.
 - [`observable-tutorial`](https://github.com/MicrolabIoT/observable-tutorial) – Data visualization examples using Observable.
-- [`factory-frontend`](https://github.com/MicrolabIoT/factory-frontend) – Web frontend interface for factory sensor projects.
 
 ---
 
@@ -53,11 +53,11 @@ All MQTT tools and messaging-related infrastructure (including auth and device m
 Prototypes, scripts, and smaller test utilities that may be in development or R&D.
 
 - [`testsvg`](https://github.com/MicrolabIoT/testsvg)
+- [`tablet_lightshow`](https://github.com/MicrolabIoT/Tablet_lightshow) – Simple Python script to flicker the lights (used in public tablet dashboards).
+
 - [`weather-open-maps`](https://github.com/MicrolabIoT/weather-open-maps)
-- [`factory-provisioning-tool`](https://github.com/MicrolabIoT/factory-provisioning-tool)
 - [`device-control-service`](https://github.com/MicrolabIoT/device-control-service)
 - [`sensor-monitoring-viewer`](https://github.com/MicrolabIoT/sensor-monitoring-viewer)
-- [`db_24h`](https://github.com/MicrolabIoT/db_24h)
 - [`statistics-service`](https://github.com/MicrolabIoT/statistics-service)
 - [`scripting-scripts`](https://github.com/MicrolabIoT/scripting-scripts)
 - [`temporary-keyboard-import`](https://github.com/MicrolabIoT/temporary-keyboard-import)
@@ -71,13 +71,13 @@ Prototypes, scripts, and smaller test utilities that may be in development or R&
 
 More backend-oriented projects and service infrastructure.
 
-- [`storing-script`](https://github.com/MicrolabIoT/storing-script)
+- [`storing-script`](https://github.com/MicrolabIoT/storing-script) - Mass storing script of almost all MQTT messages in our broker.
 - [`general-service-architecture`](https://github.com/MicrolabIoT/general-service-architecture)
 - [`docserver-mqtt-service`](https://github.com/MicrolabIoT/docserver-mqtt-service)
 - [`event-monitoring`](https://github.com/MicrolabIoT/event-monitoring)
 - [`mqtt-factory-db-projection`](https://github.com/MicrolabIoT/mqtt-factory-db-projection)
 - [`dct-logger`](https://github.com/MicrolabIoT/dct-logger)
-
+- [`db_24h`](https://github.com/MicrolabIoT/db_24h)
 ---
 
 ## 🧰 Utility Tools
