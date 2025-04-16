@@ -9,9 +9,10 @@ Welcome to the official code repository of **Atelier Eindhoven B.V.** This organ
 These repositories power the user-facing web interfaces, including dashboards and configuration panels.
 - [`Admin-panel`](https://github.com/MicrolabIoT/TabletAdminSPA) – Admin panel for tablet control, smart-building control (IoT side) - works with 
 - [`Meeting room application`](https://github.com/MicrolabIoT/TabletSPA) - Meeting room tablet application for controlling lights, music, TV etc.
-- [`factory-frontend`](https://github.com/MicrolabIoT/factory-provisiong-tool) – Fullstack application for factory flashing devices.
+- [`factory-provisioning-tool`](https://github.com/MicrolabIoT/factory-provisiong-tool) – Fullstack application for factory flashing devices and generating QR.
+- [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory **testing tool** for sensors of a device straight out of the factory using a broker (hivemq) as the response.
 - [`Device-mapper`](https://github.com/MicrolabIoT/zigbee-helper-tool) - frontend for flashing esp devices with right settings and configuring zigbee devices.
-
+- ~['Floor-plan-dashboard](https://github.com/MicrolabIoT/Floor-plan-dashboard) - Interactive SVG dashboard for floor plans, merged into `Admin-panel`~
 - 
 
 ---
@@ -30,23 +31,22 @@ More backend-oriented projects and service infrastructure.
 - [`exact2postgres`](https://github.com/MicrolabIoT/exact_to_postgres) - Exact to postgres CRON storage.
 - [`samsung-serial-controller`](https://github.com/MicrolabIoT/samsung-tv-serial-controller) - backend system to be able to control samsung tvs, with custom commands.
 - [`dpt-logger`](https://github.com/MicrolabIoT/dpt-logger) - logger related to `Device-mapper` and `DPT-backend`, every interaction in the frontend is logged whilst all backend events are logged.
-
-- [`general-service-architecture`](https://github.com/MicrolabIoT/general-service-architecture)
-- [`docserver-mqtt-service`](https://github.com/MicrolabIoT/docserver-mqtt-service)
-- [`event-monitoring`](https://github.com/MicrolabIoT/event-monitoring)
-- [`mqtt-factory-db-projection`](https://github.com/MicrolabIoT/mqtt-factory-db-projection)
-- [`dct-logger`](https://github.com/MicrolabIoT/dct-logger)
-
+- [`Calibration`](https://github.com/MicrolabIoT/Calibration) - Calibration backend service for calculating coefficients for a simple linear regression where eos sensor and seperate lux sensor are variables.
+- [`blinds-controller`](https://github.com/MicrolabIoT/blinds-controller) - Backend mapper for blind control commands.
+- [`auto-mapper`](https://github.com/MicrolabIoT/auto-mapper) - Main mapper for things such as lights to sateraito and sateraito status to rooms.
+- 
+- ~[`mqtt-light-mapper`](https://github.com/MicrolabIoT/mqtt-light-mapper) - Predecessor of `auto-mapper~  
 ---
 
 ## 🏢 Smart Building Control
 
 Automation and control logic for lights, doors, ventilation, and energy management.
 
-- [`light_control`](https://github.com/MicrolabIoT/light_control)
+- [`light_control`](https://github.com/MicrolabIoT/light_control_4) - Smart lighting service based on MQTT
 - [`rayonics-locks-backend`](https://github.com/MicrolabIoT/rayonics-locks-backend`) - Nest backend for our proprietary lock system based on RAYONICS.
 - [`Rayonics-android-app`](https://github.com/MicrolabIoT/rayonics-android-app) - Java based android app for rayonics.
-- [`light_control_prod`](https://github.com/MicrolabIoT/Light_control_prod)
+
+
 - [`light_hard_shutdown`](https://github.com/MicrolabIoT/Light_hard_shutdown)
 - [`proto-light-control`](https://github.com/MicrolabIoT/proto-light-control)
 - [`light_control_ui`](https://github.com/MicrolabIoT/light_control_ui)
@@ -83,19 +83,14 @@ Prototypes, scripts, and smaller test utilities that may be in development or R&
 - [`trv publisher`](https://github.com/MicrolabIoT/trv-publisher) - jupyter notebook to manually send commands to TRV's in a building, not automated or in prod yet.
 - [`web-easy-mapper`](https://github.com/MicrolabIoT/webeasy-mapper) - Temperature mappers from EOS to Webeasy listener topics.
 - [`lux-pir-analysis`](https://github.com/MicrolabIoT/rb-lux-and-pir-analysis) - Lux and pir analysis in jupyter notebook
-- [`testsvg`](https://github.com/MicrolabIoT/testsvg)
+- [`Sensor-dashboard`](https://github.com/MicrolabIoT/Dashboard_sensors) - Initial sensor-dashboard in python DASH.
+- [`testsvg`](https://github.com/MicrolabIoT/testsvg) - Test interactive SVG dashboard of a floor plan, predecessor of `floor-plan-dashboard`.
 - [`tablet_lightshow`](https://github.com/MicrolabIoT/Tablet_lightshow) – Simple Python script to flicker the lights of a tablet's LED.
 - [`observable-tutorial`](https://github.com/MicrolabIoT/observable-tutorial) – Angular tutorial in observables.
 - [`people-counter`](https://github.com/MicrolabIoT/peopleCounter) - People counter using ML and camera streams. Never went into production due to buggy frontend + manual tagging.
+- [`proto-light-control`](https://github.com/MicrolabIoT/proto-light-control) - JS test version for light control, stopped quite quickly.
+- [`light-calibration-logger`](https://github.com/MicrolabIoT/light-calibration-logger) - Small NESTJS logger for specific topics, used for data analysis
   
-- [`weather-open-maps`](https://github.com/MicrolabIoT/weather-open-maps)
-- [`device-control-service`](https://github.com/MicrolabIoT/device-control-service)
-- [`sensor-monitoring-viewer`](https://github.com/MicrolabIoT/sensor-monitoring-viewer)
-- [`statistics-service`](https://github.com/MicrolabIoT/statistics-service)
-- [`temporary-keyboard-import`](https://github.com/MicrolabIoT/temporary-keyboard-import)
-- [`factory-scripting-core`](https://github.com/MicrolabIoT/factory-scripting-core)
-- [`calibration-service`](https://github.com/MicrolabIoT/calibration-service)
-- [`registry-sensor-names`](https://github.com/MicrolabIoT/registry-sensor-names)
 
 ---
 
@@ -105,10 +100,8 @@ Smaller helpers, tools, scripts, and miscellaneous utilities.
 
 - [`zigbee-module-flasher`](https://github.com/MicrolabIoT/zigbee-module-flasher) - Flasher tool for the zigbee module on our sateraito/gateways for zigbee.
 - [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory testing tool for sensors of a device straight out of the factory.
-- [`auto-mapper`](https://github.com/MicrolabIoT/auto-mapper)
-- [`scripting-scripts`](https://github.com/MicrolabIoT/scripting-scripts)
-- [`trigger-light`](https://github.com/MicrolabIoT/trigger-light)
-- [`zigbee2mqtt-extension-host`](https://github.com/MicrolabIoT/zigbee2mqtt-extension-host)
-- [`Tablet_lightshow`](https://github.com/MicrolabIoT/Tablet_lightshow)
+- [`light-publisher`](https://github.com/MicrolabIoT/lights-publisher) - Mass on/off tool for lights in a building
+- [`light-hard-shutdown](https://github.com/MicrolabIoT/Light_hard_shutdown) - Mass shutdown of a buildings light.
+
 
 ---
