@@ -13,17 +13,16 @@ These repositories power the user-facing web interfaces, including dashboards an
 - [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory **testing tool** for sensors of a device straight out of the factory using a broker (hivemq) as the response.
 - [`Device-mapper`](https://github.com/MicrolabIoT/zigbee-helper-tool) - frontend for flashing esp devices with right settings and configuring zigbee devices.
 - ~['Floor-plan-dashboard](https://github.com/MicrolabIoT/Floor-plan-dashboard) - Interactive SVG dashboard for floor plans, merged into `Admin-panel`~
-- 
+- [`Stichting-maak`](https://github.com/MicrolabIoT/stichtingmaak) - Stichting Maak website in HTML.
 
 ---
 
 ## 🔧 Backend Services & Architecture
 
 More backend-oriented projects and service infrastructure.
-
-- [`storing-script`](https://github.com/MicrolabIoT/storing-script) - Mass storing script of specific MQTT messages in our broker.
-- [`storing_script`](https://github.com/MicrolabIoT/storing_script) - Mass storing **dynamic** script of specific MQTT messages in our broker.
 - [`broker-logger`](https://github.com/MicrolabIoT/broker-logger) - Latest broker storer of ALL mqtt messages, which is in use right now.
+- ~[`storing-script`](https://github.com/MicrolabIoT/storing-script) - Mass storing script of specific MQTT messages in our broker, merged into `broker-logger`.~
+- ~[`storing_script`](https://github.com/MicrolabIoT/storing_script) - Mass storing **dynamic** script of specific MQTT messages in our broker, merged into `broker-logger`.~
 - [`db_24h`](https://github.com/MicrolabIoT/db_24h) - Last 24 hour MQTT broker storer, for data analysis.
 - [`building-management-api`](https://github.com/MicrolabIoT/TabletAPI) - HTTP API for room/building specific settings, e.g. light-count, user-settings, room size, meeting-room tablet settings etc.
 - [`Light-control-API`](https://github.com/MicrolabIoT/light_control_MQTT_API) - MQTT version of `building-management-api` for only the light-control settings, built on top of it.
@@ -34,26 +33,21 @@ More backend-oriented projects and service infrastructure.
 - [`Calibration`](https://github.com/MicrolabIoT/Calibration) - Calibration backend service for calculating coefficients for a simple linear regression where eos sensor and seperate lux sensor are variables.
 - [`blinds-controller`](https://github.com/MicrolabIoT/blinds-controller) - Backend mapper for blind control commands.
 - [`auto-mapper`](https://github.com/MicrolabIoT/auto-mapper) - Main mapper for things such as lights to sateraito and sateraito status to rooms.
-- 
-- ~[`mqtt-light-mapper`](https://github.com/MicrolabIoT/mqtt-light-mapper) - Predecessor of `auto-mapper~  
+- [`weather-cron-job](https://github.com/MicrolabIoT/weather-cron-job) - Weather cron job, simple publisher to MQTT for tablets.
+- ~[`mqtt-light-mapper`](https://github.com/MicrolabIoT/mqtt-light-mapper) - Predecessor of `auto-mapper`.~  
 ---
 
 ## 🏢 Smart Building Control
 
-Automation and control logic for lights, doors, ventilation, and energy management.
+Automation and control logic for lights, doors, temperature, and energy management.
 
 - [`light_control`](https://github.com/MicrolabIoT/light_control_4) - Smart lighting service based on MQTT
 - [`rayonics-locks-backend`](https://github.com/MicrolabIoT/rayonics-locks-backend`) - Nest backend for our proprietary lock system based on RAYONICS.
+- [`temporary-lock-api-rayonics`](https://github.com/MicrolabIoT/temporary-lock-api-microstad) - API specifically for Microstad locks, seems to be more up to date than `rayonics-locks-backend`.
 - [`Rayonics-android-app`](https://github.com/MicrolabIoT/rayonics-android-app) - Java based android app for rayonics.
+- [`web-easy-mapper`](https://github.com/MicrolabIoT/webeasy-mapper) - Temperature mappers from EOS to Webeasy listener topics.
 
 
-- [`light_hard_shutdown`](https://github.com/MicrolabIoT/Light_hard_shutdown)
-- [`proto-light-control`](https://github.com/MicrolabIoT/proto-light-control)
-- [`light_control_ui`](https://github.com/MicrolabIoT/light_control_ui)
-- [`motion-switch-controller`](https://github.com/MicrolabIoT/motion-switch-controller)
-- [`doordevice-controller`](https://github.com/MicrolabIoT/doordevice-controller)
-- [`trigger-light`](https://github.com/MicrolabIoT/trigger-light)
-- [`lights-publisher`](https://github.com/MicrolabIoT/lights-publisher)
 
 ---
 
@@ -67,11 +61,6 @@ All MQTT tools and messaging-related infrastructure (including auth and device m
 - [`auto-mapper`](https://github.com/MicrolabIoT/auto-mapper) – Automatically detects and maps controllable devices.
 - [`server-monitoring`](https://github.com/MicrolabIoT/server-monitoring) - MQTT publisher of server physical stats, RAM, cpu etc.
 
-
-- [`mqtt-ota`](https://github.com/MicrolabIoT/mqtt-ota)
-- [`mqtt_sensors`](https://github.com/MicrolabIoT/mqtt_sensors)
-- [`zigbee2mqtt-extension-host`](https://github.com/MicrolabIoT/zigbee2mqtt-extension-host)
-
 ---
 
 ## 🧠 Experimental, prototyping & visualizations
@@ -81,7 +70,6 @@ Prototypes, scripts, and smaller test utilities that may be in development or R&
 - [`MQTT-simulation`](https://github.com/MicrolabIoT/MQTT-Sim-Tool) - Simulates MQTT broker prod messages in development.
 - [`SVG-building-dashboard`](https://github.com/MicrolabIoT/Floor-plan-dashboard) - Initial testing of an interactive SVG dashboard of a floor in a building - merged into `admin-panel`.
 - [`trv publisher`](https://github.com/MicrolabIoT/trv-publisher) - jupyter notebook to manually send commands to TRV's in a building, not automated or in prod yet.
-- [`web-easy-mapper`](https://github.com/MicrolabIoT/webeasy-mapper) - Temperature mappers from EOS to Webeasy listener topics.
 - [`lux-pir-analysis`](https://github.com/MicrolabIoT/rb-lux-and-pir-analysis) - Lux and pir analysis in jupyter notebook
 - [`Sensor-dashboard`](https://github.com/MicrolabIoT/Dashboard_sensors) - Initial sensor-dashboard in python DASH.
 - [`testsvg`](https://github.com/MicrolabIoT/testsvg) - Test interactive SVG dashboard of a floor plan, predecessor of `floor-plan-dashboard`.
