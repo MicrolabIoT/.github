@@ -12,7 +12,7 @@ These repositories power the user-facing web interfaces, including dashboards an
 - [`factory-provisioning-tool`](https://github.com/MicrolabIoT/factory-provisiong-tool) – Fullstack application for factory flashing devices and generating QR.
 - [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory **testing tool** for sensors of a device straight out of the factory using a broker (hivemq) as the response.
 - [`Device-mapper`](https://github.com/MicrolabIoT/zigbee-helper-tool) - frontend for flashing esp devices with right settings and configuring zigbee devices.
-- ~['Floor-plan-dashboard](https://github.com/MicrolabIoT/Floor-plan-dashboard) - Interactive SVG dashboard for floor plans, merged into `Admin-panel`~
+- ~['Floor-plan-dashboard`](https://github.com/MicrolabIoT/Floor-plan-dashboard) - Interactive SVG dashboard for floor plans, merged into `Admin-panel`~
 - [`Stichting-maak`](https://github.com/MicrolabIoT/stichtingmaak) - Stichting Maak website in HTML.
 
 ---
@@ -90,7 +90,7 @@ Smaller helpers, tools, scripts, and miscellaneous utilities.
 - [`zigbee-module-flasher`](https://github.com/MicrolabIoT/zigbee-module-flasher) - Flasher tool for the zigbee module on our sateraito/gateways for zigbee.
 - [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory testing tool for sensors of a device straight out of the factory.
 - [`light-publisher`](https://github.com/MicrolabIoT/lights-publisher) - Mass on/off tool for lights in a building
-- [`light-hard-shutdown](https://github.com/MicrolabIoT/Light_hard_shutdown) - Mass shutdown of a buildings light.
+- [`light-hard-shutdown`](https://github.com/MicrolabIoT/Light_hard_shutdown) - Mass shutdown of a buildings light.
 - [`certbot-dns`](https://github.com/MicrolabIoT/certbot-script-dns-godaddy) - certbot for renewing certificates by godaddy using a DNS challenge.
 - ~[`certbot`](https://github.com/MicrolabIoT/certbot-cloudflare) - certbot without python integration, I think this was a predecessor to `certbot-dns`.~
 ---
