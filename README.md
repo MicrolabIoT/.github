@@ -73,7 +73,7 @@ Prototypes, scripts, and smaller test utilities that may be in development or R&
 - [`MQTT-simulation`](https://github.com/MicrolabIoT/MQTT-Sim-Tool) - Simulates MQTT broker prod messages in development.
 - [`SVG-building-dashboard`](https://github.com/MicrolabIoT/Floor-plan-dashboard) - Initial testing of an interactive SVG dashboard of a floor in a building - merged into `admin-panel
 - [`testsvg`](https://github.com/MicrolabIoT/testsvg)
-- [`tablet_lightshow`](https://github.com/MicrolabIoT/Tablet_lightshow) – Simple Python script to flicker the lights (used in public tablet dashboards).
+- [`tablet_lightshow`](https://github.com/MicrolabIoT/Tablet_lightshow) – Simple Python script to flicker the lights of a tablet's LED.
 - [`observable-tutorial`](https://github.com/MicrolabIoT/observable-tutorial) – Angular tutorial in observables.
   
 - [`weather-open-maps`](https://github.com/MicrolabIoT/weather-open-maps)
@@ -91,6 +91,7 @@ Prototypes, scripts, and smaller test utilities that may be in development or R&
 
 Smaller helpers, tools, scripts, and miscellaneous utilities.
 
+- [`zigbee-module-flasher`](https://github.com/MicrolabIoT/zigbee-module-flasher) - Flasher tool for the zigbee module on our sateraito/gateways for zigbee.
 - [`auto-mapper`](https://github.com/MicrolabIoT/auto-mapper)
 - [`scripting-scripts`](https://github.com/MicrolabIoT/scripting-scripts)
 - [`trigger-light`](https://github.com/MicrolabIoT/trigger-light)
