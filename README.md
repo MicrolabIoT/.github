@@ -25,6 +25,7 @@ More backend-oriented projects and service infrastructure.
 - ~[`storing_script`](https://github.com/MicrolabIoT/storing_script) - Mass storing **dynamic** script of specific MQTT messages in our broker, merged into `broker-logger`.~
 - [`db_24h`](https://github.com/MicrolabIoT/db_24h) - Last 24 hour MQTT broker storer, for data analysis.
 - [`building-management-api`](https://github.com/MicrolabIoT/TabletAPI) - HTTP API for room/building specific settings, e.g. light-count, user-settings, room size, meeting-room tablet settings etc.
+- ~[`IoTAPI`](https://github.com/MicrolabIoT/IoTAPI-nestJS) - NestJS IoT API, seems to be predecessor of `building-management-API`.~
 - [`Light-control-API`](https://github.com/MicrolabIoT/light_control_MQTT_API) - MQTT version of `building-management-api` for only the light-control settings, built on top of it.
 - [`DPT-backend`](https://github.com/MicrolabIoT/microlab-dpt-PROD) - Backend service for flashing esp-devices, used by `device-mapper`, uses ESPHOME core to OTA devices.
 - [`exact2postgres`](https://github.com/MicrolabIoT/exact_to_postgres) - Exact to postgres CRON storage.
@@ -90,6 +91,6 @@ Smaller helpers, tools, scripts, and miscellaneous utilities.
 - [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory testing tool for sensors of a device straight out of the factory.
 - [`light-publisher`](https://github.com/MicrolabIoT/lights-publisher) - Mass on/off tool for lights in a building
 - [`light-hard-shutdown](https://github.com/MicrolabIoT/Light_hard_shutdown) - Mass shutdown of a buildings light.
-
-
+- [`certbot-dns`](https://github.com/MicrolabIoT/certbot-script-dns-godaddy) - certbot for renewing certificates by godaddy using a DNS challenge.
+- ~[`certbot`](https://github.com/MicrolabIoT/certbot-cloudflare) - certbot without python integration, I think this was a predecessor to `certbot-dns`.~
 ---
