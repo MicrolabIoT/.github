@@ -7,7 +7,8 @@ Welcome to the official code repository of **Atelier Eindhoven B.V.** This organ
 ## 🌐 Web-based applications & Dashboard Interfaces
 
 These repositories power the user-facing web interfaces, including dashboards and configuration panels.
-- [`Admin-panel`](https://github.com/MicrolabIoT/TabletAdminSPA) – Admin panel for tablet control, smart-building control (IoT side) - works with 
+- [`Admin-panel`](https://github.com/MicrolabIoT/TabletAdminSPA) – Admin panel for tablet control, smart-building control (IoT side) - works with
+- [`MOS`](https://github.com/MicrolabIoT/MOS) - Microlab OS in php, our member management tool.
 - [`Meeting room application`](https://github.com/MicrolabIoT/TabletSPA) - Meeting room tablet application for controlling lights, music, TV etc.
 - [`factory-provisioning-tool`](https://github.com/MicrolabIoT/factory-provisiong-tool) – Fullstack application for factory flashing devices and generating QR.
 - [`factory-testing-tool`](https://github.com/MicrolabIoT/factory-testing-tool) - Factory **testing tool** for sensors of a device straight out of the factory using a broker (hivemq) as the response.
@@ -79,6 +80,7 @@ Prototypes, scripts, and smaller test utilities that may be in development or R&
 - [`people-counter`](https://github.com/MicrolabIoT/peopleCounter) - People counter using ML and camera streams. Never went into production due to buggy frontend + manual tagging.
 - [`proto-light-control`](https://github.com/MicrolabIoT/proto-light-control) - JS test version for light control, stopped quite quickly.
 - [`light-calibration-logger`](https://github.com/MicrolabIoT/light-calibration-logger) - Small NESTJS logger for specific topics, used for data analysis
+- [`OfficeRND-data-cleaner`](https://github.com/MicrolabIoT/OfficeRND) - jupyter notebook of cleaning MOS data for integration in oRND.
   
 
 ---
